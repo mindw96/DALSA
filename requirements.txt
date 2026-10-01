@@ -1,0 +1,11 @@
+# Versions used for the experiments in the paper's appendix (Python 3.12, CUDA GPUs).
+vllm==0.24.0
+torch==2.11.0
+transformers==5.13.0
+accelerate==1.14.0
+datasets==5.0.0
+scikit-learn==1.9.0
+numpy==2.3.5
+sympy==1.14.0
+tqdm==4.68.4
+ninja  # FlashInfer JIT used by vLLM on recent GPUs
